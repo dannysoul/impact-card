@@ -47,6 +47,11 @@ const ImpactCardTailwind = () => {
           />
           {/* Darker overlay on hover */}
           <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-colors duration-500"></div>
+
+          {/* Sponsor text in bottom-right of image */}
+          <div className="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-xs px-2 py-1 rounded">
+            Sponsored by XYZ Organization
+          </div>
         </div>
 
         {/* Share button in top-right corner */}
@@ -57,11 +62,6 @@ const ImpactCardTailwind = () => {
         >
           <FaShareAlt className="text-xl" />
         </button>
-
-        {/* Sponsor text in bottom-right of image */}
-        <div className="absolute bottom-2 right-2 bg-black bg-opacity-50 text-white text-xs px-2 py-1 rounded">
-          Sponsored by XYZ Organization
-        </div>
 
         <div className="p-6 text-white animate-bounceIn">
           <h2 className="text-2xl font-semibold mb-2">Impact Card</h2>
