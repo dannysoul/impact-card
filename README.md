@@ -13,10 +13,10 @@ Before you can run this app, make sure you have these installed:
 ### How to check if you have them:
 1. Open your terminal (or command prompt on Windows).
 2. Run these commands to see your versions:
-   \`\`\`bash
+   ```bash
    node -v
    npm -v
-   \`\`\`
+   ```
 
 If you don't have Node.js yet, grab it from here: [https://nodejs.org/](https://nodejs.org/).
 
@@ -27,42 +27,42 @@ You can either **clone** this project from GitHub or **download the zip** and ex
 
 #### To Clone:
 In your terminal, go to the folder where you want this project and run:
-\`\`\`bash
+```bash
 git clone <repository-url>
-\`\`\`
+```
 
 ### 2. Go to the Project Folder
 Navigate into the folder where the project is:
-\`\`\`bash
+```bash
 cd <project-folder-name>
-\`\`\`
+```
 
 ### 3. Install What’s Needed
 Before running the app, you need to install the required packages:
-\`\`\`bash
+```bash
 npm install
-\`\`\`
+```
 
 This sets up everything the app needs to work.
 
 ### 4. Start the App
 To launch the app on your local machine, run:
-\`\`\`bash
+```bash
 npm start
-\`\`\`
+```
 
 Once it’s running, open your browser and go to:
-\`\`\`
+```
 http://localhost:3000
-\`\`\`
+```
 
 Any changes you make will automatically reload the page.
 
 ## Quick Recap
 
 1. **Download or clone** the project.
-2. **Install dependencies** with \`npm install\`.
-3. **Run the app** with \`npm start\`.
+2. **Install dependencies** with `npm install`.
+3. **Run the app** with `npm start`.
 
 ---
 
